@@ -6,17 +6,12 @@ public class Main {
         Pessoa ericCoxinha = new Pessoa("Brenno",4800);
 
         // Comparar se a primeira pessoa criada é igual à segunda.
-
-        System.out.println(brennoIFood.equals(ericCoxinha));
-        System.out.println(ericCoxinha.getRG());
-
-
-//        if(brennoIFood.equals(ericCoxinha)) {
-//            System.out.println("Brenno igual ao Eric");
-//        } else {
-//            System.out.println("Pessoas diferentes");
-//        }
-
+        if(brennoIFood.equals(ericCoxinha)) {
+            System.out.println("Brenno igual ao Eric");
+        } else {
+            System.out.println("Pessoas diferentes");
+        }
 //        System.out.println(brennoIFood.equals(ericCoxinha));
+//        System.out.println(ericCoxinha.getRG());
     }
 }
